@@ -37,3 +37,17 @@ a::before {
     background-color: #0fbcf9;
     transform: scale(1.05);
 }
+div {
+    display: inline-block;
+    background-color: #3A4042;
+}
+h1 {
+    font-family: "Press Start 2P", sans-serif;
+    color: #3C40C6;
+    text-shadow: 4px 4px 0px #000;
+}
+h2 {
+    font-family: "Press Start 2P", sans-serif;
+    color: #FFF;
+    text-shadow: 4px 4px 0px #000;
+}
