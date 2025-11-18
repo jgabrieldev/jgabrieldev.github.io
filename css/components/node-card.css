@@ -31,3 +31,7 @@
 .node-card.-clean .logo{
     padding: 0;
 }
+
+.node-card.-cian .logo{
+    background-color: #0FBCF9;
+}
