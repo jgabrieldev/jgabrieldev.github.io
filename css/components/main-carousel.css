@@ -3,6 +3,37 @@
     padding: 0 80px;
 }
 
+.main-carousel .items{
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements{
+    display: flex;
+    justify-content: space-between;
+    transition: transform 150ms linear;
+}
+
+.main-carousel::before{
+    content: '';
+    position: absolute;
+    height: 6px;
+    background-color: #000;
+    top: 75px;
+    left: 50px;
+    width: calc(100% - 100px); 
+}
+
+.main-carousel::after{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    border: 3px dashed #000;
+    top: 75px;
+    left: 0;
+    width: 100%;
+}
+
 .main-carousel .button-arrow{
     position: absolute;
     bottom: 70px;
