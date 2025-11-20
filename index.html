@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-description.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
 </head>
 <body>
@@ -202,7 +205,29 @@
         <p class="main-description">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
     </section>
 
-    <script src="js/components/main-carousel.js"></script>
+    <section class="main-section -bgGray -bdNone">
+        <h1 class="main-title -second">Contatos</h1>
+
+        <form class="main-form" action="">
+
+            <div class="input">
+                <label class="main-label" for="name">Nome</label>
+                <input class="main-input" type="text" id="name" required>
+            </div>
+
+            <div class="input">
+                <label class="main-label" for="email">Email</label>
+                <input class="main-input" type="email" id="email" required>
+            </div>
+
+            <div class="input">
+                <label class="main-label" for="message">Mensagem</label>
+                <textarea class="main-input -textArea" id="message" required></textarea>
+            </div>
+            
+            <button class="main-button -btnForm" type="submit">Enviar</button>
+        </form>
+    </section>
 
     <footer class="main-footer">
         <a class="action" href="https://x.com/jjdzz11" target="_blank">
@@ -215,5 +240,7 @@
             <img src="assets/img/discord-logo.png" alt="Logo do Discord em pixel art">
         </a>
     </footer>
+
+    <script src="js/components/main-carousel.js"></script>
 </body>
 </html>
