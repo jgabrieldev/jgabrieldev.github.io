@@ -7,9 +7,18 @@
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000;
     margin-right: 0;
+    cursor: pointer;
     transition: transform 150ms linear;
 }
 
 .main-button:hover{
     transform: scale(1.05);
+}
+
+.main-button.-full{
+    font-size: 30px;
+    font-weight: 300;
+    width: 100%;
+    background-color: #000;
+    box-shadow: none;
 }
